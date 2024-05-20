@@ -4,6 +4,7 @@ public class Shape{
 	public static void main(String args[]) {
 		Rectangle rect = new Rectangle();
 		rect.setDim(10, 10);
+		System.out.println("Area of Rectangle : ");
 		System.out.println(rect.getArea());
 	}
 }
