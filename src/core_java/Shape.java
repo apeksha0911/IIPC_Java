@@ -4,6 +4,8 @@ public class Shape{
 	public static void main(String args[]) {
 		Rectangle rect = new Rectangle();
 		rect.setDim(10, 10);
+		Student dhruvik = new Student("dhruvik");
+		Student stu1 = new Student();
 		System.out.println("Area of Rectangle : ");
 		System.out.println(rect.getArea());
 	}
@@ -20,4 +22,7 @@ class Rectangle {
 	public float getArea() {
 		return this.breadth * this.length;
 	}
+}
+class Circle{
+	
 }
